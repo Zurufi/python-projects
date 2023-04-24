@@ -71,7 +71,7 @@ def get_valid_input(prompt: str, validation):
             continue
 
 
-def is_valid_whiteball(white_ball: str) -> str:
+def is_valid_whiteball(white_ball: str) -> bool:
     """
     Takes a string representing a set of five numbers separated by spaces.
     Returns True if the string contains exactly five numbers between 1 and 69, False otherwise.
